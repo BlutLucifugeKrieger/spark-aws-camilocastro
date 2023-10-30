@@ -39,7 +39,7 @@ El contenedor se esta ejecutanto correctamente de forma local, para este caso en
 ![image](https://github.com/BlutLucifugeKrieger/spark-aws-camilocastro/assets/130005378/0dd74811-d040-4d0c-a297-6a1a6656cd3f)
 
 Como se observa, la ejecucion de la instancia del contenedor esta ejecutandose correctamente.
-Ahora con la finalidad de hacer que esta ejecucion del servicio este en internet y cualquier usuario puede acceder a el, tendremos que emplear los servicios de amazon (AWS)
+
 
 ---------------------------Virtualizacion en AWS---------------------------------------------------------
 
