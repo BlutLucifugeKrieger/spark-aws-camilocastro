@@ -1,4 +1,4 @@
----------------------------------------Creacion de la imagen de docker---------------------------------------------------------------
+---------------------------------------Creacion de la imagen de docker-------------------------------------------------
 
 En primer lugar deberas de generar la imagen docker del proyecto, esto se hace atraves del siguiente comando:
 
@@ -40,7 +40,7 @@ El contenedor se esta ejecutanto correctamente de forma local, para este caso en
 
 Como se observa, la ejecucion de la instancia del contenedor esta ejecutandose correctamente.
 Ahora con la finalidad de hacer que esta ejecucion del servicio este en internet y cualquier usuario puede acceder a el, tendremos que emplear los servicios de amazon (AWS)
----------------------------------------Virtualizacion en AWS-----------------------------------------------------------------------------------------------------------------
+---------------------------------------Virtualizacion en AWS-------------------------------------------------------------------------------
 
 En este punto podemos subir la imagen a dockerHub y proceder con los servicios de virtualizacion de AWS. 
 Por otro lado, en mi caso, ya tengo subida la imagen del proyecto a dockerHub, esta se encuentra en el siguiente enlace: https://hub.docker.com/r/blutlucifugekrieger/sparkprojectcamilocastro
@@ -53,7 +53,10 @@ Al acceder al enlace podrias ver lo siguiente:
 Una vez, se tenga en cuenta ese repositorio de dockerHub, se podra acceder a AWS y crear la maquina virtual junto con la key de acceso,
 por otro lado, se tendra que conectar a su maquina virtual, e instalar docker, una vez esto este realizado, solo bastara con crear una instancia del contenedor de la imagen subida al repostorio en dockerHub.
 
-Finalmente, empleara el comando "docker ps" para revisar la instancia del contenedor que se esta ejecutando:
+Vista de la maquina virtual creada apartir del servicio EC2 de AWS
+![image](https://github.com/BlutLucifugeKrieger/spark-aws-camilocastro/assets/130005378/c7673493-8496-42a9-8f44-5dd852434989)
+
+Con esto en cuenta, te conectaras a tu maquina virtual, y finalmente, emplearas el comando "docker ps" para revisar la instancia del contenedor que se esta ejecutando:
 
 ![image](https://github.com/BlutLucifugeKrieger/spark-aws-camilocastro/assets/130005378/ef7eb828-a642-4625-a68f-a6629c0ebecb)
 
