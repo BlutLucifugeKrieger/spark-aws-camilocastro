@@ -40,7 +40,7 @@ El contenedor se esta ejecutanto correctamente de forma local, para este caso en
 
 Como se observa, la ejecucion de la instancia del contenedor esta ejecutandose correctamente.
 Ahora con la finalidad de hacer que esta ejecucion del servicio este en internet y cualquier usuario puede acceder a el, tendremos que emplear los servicios de amazon (AWS)
----------------------------------------Virtualizacion en AWS-------------------------------------------------------------------------------
+---------------------------------------Virtualizacion en AWS---------------------------------------------------------
 
 En este punto podemos subir la imagen a dockerHub y proceder con los servicios de virtualizacion de AWS. 
 Por otro lado, en mi caso, ya tengo subida la imagen del proyecto a dockerHub, esta se encuentra en el siguiente enlace: https://hub.docker.com/r/blutlucifugekrieger/sparkprojectcamilocastro
@@ -68,7 +68,7 @@ Por ende, debo de crear la instancia, pero dicha instancia ya la cree hace unos 
 
 ![image](https://github.com/BlutLucifugeKrieger/spark-aws-camilocastro/assets/130005378/1921ebde-a1ed-4316-8a98-e08ba5310611)
 
-Al ejecutar este comando, obtengo como resultado todas las instancias que he creado, incluso aquellas que no se esten ejecutando:
+Despues, al ejecutar este comando, obtengo como resultado todas las instancias que he creado, incluso aquellas que no se esten ejecutando:
 
 
 ![image](https://github.com/BlutLucifugeKrieger/spark-aws-camilocastro/assets/130005378/45baa345-ed91-46f3-8e84-0b8671aec896)
@@ -82,7 +82,7 @@ Al ejecutar el comando "docker ps", obtendremos las instancias que se estan ejec
 
 ![image](https://github.com/BlutLucifugeKrieger/spark-aws-camilocastro/assets/130005378/9308ef75-7dda-4fd3-987e-4b8623230e93)
 
-Finalmente, accedemos a la ejecucion en el navegador de preferencia, esto se realiza atraves de la direccion DNS publica:
+Finalmente, accedemos a la ejecucion del servicio docker en el navegador de preferencia, esto se realiza atraves de la direccion DNS publica de la maquina virtual:
 ![image](https://github.com/BlutLucifugeKrieger/spark-aws-camilocastro/assets/130005378/35145cdb-2eff-431a-84bf-bc2b0dff0d7b)
 
 Pegamos en el navegador la direccion DNS y la decoramos con el puerto en donde la maquina virtual esta escuchando (42000), junto a su vez, con la direccion "/hello" definido en la clase main del proyecto.
