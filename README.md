@@ -40,7 +40,7 @@ El contenedor se esta ejecutanto correctamente de forma local, para este caso en
 
 Como se observa, la ejecucion de la instancia del contenedor esta ejecutandose correctamente.
 Ahora con la finalidad de hacer que esta ejecucion del servicio este en internet y cualquier usuario puede acceder a el, tendremos que emplear los servicios de amazon (AWS)
----------------------------------------Virtualizacion en AWS---------------------------------------------------------
+---------------------------Virtualizacion en AWS---------------------------------------------------------
 
 En este punto podemos subir la imagen a dockerHub y proceder con los servicios de virtualizacion de AWS. 
 Por otro lado, en mi caso, ya tengo subida la imagen del proyecto a dockerHub, esta se encuentra en el siguiente enlace: https://hub.docker.com/r/blutlucifugekrieger/sparkprojectcamilocastro
