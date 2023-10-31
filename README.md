@@ -1,6 +1,6 @@
 
 
-Hecho por Juan Camilo Castro Velasquez
+Hecho por Juan Camilo Castro Velasquez - enlace dockerHub (imagen utilizada en este repositorio): https://hub.docker.com/r/blutlucifugekrieger/sparkprojectcamilocastro
 
 ---------------------------------------Creacion de la imagen de docker-------------------------------------------------
 
@@ -93,3 +93,16 @@ Finalmente, accedemos a la ejecucion del servicio docker en el navegador de pref
 Pegamos en el navegador la direccion DNS y la decoramos con el puerto en donde la maquina virtual esta escuchando (42000), junto a su vez, con la direccion "/hello" definido en la clase main del proyecto.
 Obtendriamos algo como esto:
 ![image](https://github.com/BlutLucifugeKrieger/spark-aws-camilocastro/assets/130005378/df58b3bb-8721-43a3-8f2f-94a944a76bbe)
+
+
+--------------------------------Arquitectura del proyecto------------------------------------------------
+
+![image](https://github.com/BlutLucifugeKrieger/spark-aws-camilocastro/assets/130005378/aea6966e-899e-4f73-9e0d-907905cc83b4)
+
+
+En breves rasgos, la idea es representar el servicio consumido por el usuario atraves de la direccion DNS publica de la maquina virtual, esto se realizo atraves de AWS (EC2), 
+como se observa en este diagrama resumido, se visualiza facilmente el concepto  de que la maquina virtual en AWS esta ejecutando una instancia de un contenedor docker, 
+el cual, fue creado apartir de una imagen en dockerHub la cual tiene un servicio REST diseñado en el framework Spark usando java.
+
+
+
