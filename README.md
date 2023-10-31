@@ -1,3 +1,7 @@
+
+
+Hecho por Juan Camilo Castro Velasquez
+
 ---------------------------------------Creacion de la imagen de docker-------------------------------------------------
 
 En primer lugar deberas de generar la imagen docker del proyecto, esto se hace atraves del siguiente comando:
