@@ -1,6 +1,6 @@
 
 
-Hecho por Juan Camilo Castro Velasquez - enlace dockerHub (imagen utilizada en este repositorio): https://hub.docker.com/r/blutlucifugekrieger/sparkprojectcamilocastro
+Hecho por Juan Camilo Castro Velasquez 
 
 ---------------------------------------Creacion de la imagen de docker-------------------------------------------------
 
